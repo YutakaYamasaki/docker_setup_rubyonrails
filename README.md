@@ -53,11 +53,16 @@ test:
 $ docker-compose build
 ```
 
-### サーバを立ち上げる
+### サーバーを立ち上げる
 
 ```
 $ docker-compose up -d
 ```
+
+### 立ち上がったアプリケーションを確認したい時
+
+下記のURLに飛ぶ
+http://localhost:3002/
 
 ### サーバを落とす
 
@@ -68,8 +73,8 @@ $ docker-compose down
 ### railsのコマンドを使用したい場合
 
 ```
-# サーバを立ち上げている場合
+# サーバーを立ち上げている場合
 $ docker-compose exec web railsコマンド
-# サーバを落としている場合
+# サーバーを落としている場合
 $ docker-compose run web railsコマンド
 ```
